@@ -24,6 +24,12 @@
 //
 // https://creativecommons.org/licenses/by-nc-sa/4.0/
 
+// Tip for future version:
+// I suggest you connect an electrolytic capacitor 10-20uF close to emitter of transistor and
+//  anode of LED. The capacitor will quickly discharged to LED significantly increase power of
+//   emitted IR pulse and 'save' other part from spikes on power rail.
+// source: comment on https://www.hackster.io/BuddyC/wifi-ir-blaster-af6bca
+
 #include "IRremote.h"
 
 #define APP_NAME "infraredReplicator"
